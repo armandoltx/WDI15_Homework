@@ -104,18 +104,33 @@ var negative = function( Name, Figure){
 };
 
  var test= negative("Armando", 1000);
- console.log(test);
+console.log(test);
+// +var transfer = function(transferFrom, transferTo, amt){
+//  +  for (var i = 0; i < accountsInBank.length; i++) {
+//  +    if(transferFrom === accountsInBank[i].userName){
+//  +    accountsInBank[i].balance = accountsInBank[i].balance - amt;
+//  +    }
+//  +    if(transferTo === accountsInBank[i].userName){
+//  +      accountsInBank[i].balance = accountsInBank[i].balance + amt;
+//  +    }
+//  +  };
+//  +};
 //
 // // Write a 'transfer' on the bank that allows you to transfer amounts between two accounts.
 var transfer = function (Name1, Transfer, Name2){
      for( var i = 0; i < account.length; i++){
-         if( (account[i].name === Name1 ) && (account[i].balance > 0) && (account[i].balance <= Transfer) )
-            var result = account[i].balance = account[i].balance + Transfer;
-          } else {
-            var result = Name1 + " You do not have enough money. Your current balance is: " + account[i].balance;
+         if( (account[i].name === Name1 )  && (account[i].balance >= Transfer) ){
+           console.log(account[i].name + " balance before transfer is  " + account[i].balance)
+             account[i].balance = account[i].balance - Transfer;
+             console.log(account[i].name + " balance is now " + account[i].balance)
+
           }
-          return result;
-    }
+          if( (account[i].name === Name2 ) ){
+              console.log(account[i].name + " balance before transfer is " + account[i].balance)
+              account[i].balance = account[i].balance + Transfer;
+              console.log(account[i].name + " balance is now " + account[i].balance)
+           }
+    };
+\
 };
- var test= transfer("Kat", 100, "Armando");
-  console.log(test);
+var test = transfer("Armando", 100, "Kat");
