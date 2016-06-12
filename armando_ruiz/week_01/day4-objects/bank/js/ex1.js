@@ -105,17 +105,7 @@ var negative = function( Name, Figure){
 
  var test= negative("Armando", 1000);
 console.log(test);
-// +var transfer = function(transferFrom, transferTo, amt){
-//  +  for (var i = 0; i < accountsInBank.length; i++) {
-//  +    if(transferFrom === accountsInBank[i].userName){
-//  +    accountsInBank[i].balance = accountsInBank[i].balance - amt;
-//  +    }
-//  +    if(transferTo === accountsInBank[i].userName){
-//  +      accountsInBank[i].balance = accountsInBank[i].balance + amt;
-//  +    }
-//  +  };
-//  +};
-//
+
 // // Write a 'transfer' on the bank that allows you to transfer amounts between two accounts.
 var transfer = function (Name1, Transfer, Name2){
      for( var i = 0; i < account.length; i++){
