@@ -26,7 +26,7 @@ var lines = {
     'L' : [ "8th", "6th", "Union Square", "3rd", "1st" ],
     '6' : ["Gran Central", "33rd", "28th", "23rd", "Union Square", "Astor Place" ]
 };
-//Single trip: Means travel in the same line.
+//Single line trip: Means travel in the same line.
 var singleLineTrip = function ( startLine, startStation, stopStation ){
   var line = lines[startLine];// square brakets instead a dot becasue we want to store in the variable the key part of the property.
   var indexStart = line.indexOf( startStation );
