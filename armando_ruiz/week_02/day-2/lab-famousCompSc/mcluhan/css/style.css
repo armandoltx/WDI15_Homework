@@ -1,0 +1,154 @@
+/*
+	01- GLOBAL STYLES
+	02- HEADER
+	03- MAIN CONTENT
+	04-
+	05- SOCIAL MEDIA
+	06- MISC
+
+*/
+
+
+/*-----------------------------------------------------------------------------
+=00 Google Fonts
+-----------------------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Archivo+Narrow);
+@import url(https://fonts.googleapis.com/css?family=Anonymous+Pro)
+/*-----------------------------------------------------------------------------
+=01 GLOBAL STYLE
+-----------------------------------------------------------------------------*/
+
+body {
+    margin: 0 px;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Archivo Narrow', sans-serif;
+    color: #656565;
+    background-color: #fff;
+}
+.wrapper {
+    margin: 0 auto;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+    /*centers our container on the page */
+}
+h1, h2, h3, h4, h5, h6, a {
+    font-family: 'Anonymous Pro';
+}
+h2 {
+    text-align: center;
+    color: #801515;
+}
+
+/*-----------------------------------------------------------------------------
+=02 Header
+-----------------------------------------------------------------------------*/
+
+.mainheader {
+    background-image: url(../img/photo-collage.jpg);
+    padding: 6em 0 6em 0;
+    text-align: center;
+}
+.mainheader h1 {
+    line-height: 1.5;
+    color: #801515;
+    font-size: 50px;
+    margin: 0;
+}
+
+/*-----------------------------------------------------------------------------
+=03 nav home
+-----------------------------------------------------------------------------*/
+
+.banner {
+    text-align: center
+}
+.mainnav {
+    display: inline-block;
+}
+.mainnav ul li {
+    display: inline-block;
+}
+.mainnav a {
+    color: #7e7e7e;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.mainnav a:hover, .mainnav a:active {
+    color: #801515;
+}
+.slogan {
+    background-color: #801515;
+}
+.slogan h2 {
+    color: #fff;
+    font-size: 18px;
+    text-align: center;
+    line-height: 2.4;
+    margin: 0;
+}
+.about {
+    margin-top: 20px;
+}
+.aboutme {
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 1.5;
+    width: 49%;
+    display: inline-block;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.aboutme p {
+    margin: 0;
+}
+.aboutimg {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------------
+=03 Content about
+-----------------------------------------------------------------------------*/
+
+.blockquote {
+    line-height: 2;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------------
+=03 Content contact me
+-----------------------------------------------------------------------------*/
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #e65380;
+    font-size: 15px;
+    line-height: 2;
+}
+a:hover {
+    color: #273b47;
+}
+
+/*-----------------------------------------------------------------------------
+=03 footer
+-----------------------------------------------------------------------------*/
+
+footer {
+    background-color: #801515;
+}
+footer p {
+    margin: 0;
+    line-height: 2;
+}

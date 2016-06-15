@@ -1,0 +1,144 @@
+/*
+	01- GLOBAL STYLES
+	02- HEADER
+	03- MAIN CONTENT
+	04-
+	05- SOCIAL MEDIA
+	06- MISC
+
+*/
+
+
+/*-----------------------------------------------------------------------------
+=00 Google Fonts
+-----------------------------------------------------------------------------*/
+
+@import url(https://fonts.googleapis.com/css?family=Karla:400,700);
+@import url(https://fonts.googleapis.com/css?family=Roboto:400,300);
+
+/*-----------------------------------------------------------------------------
+=01 GLOBAL STYLE
+-----------------------------------------------------------------------------*/
+
+body {
+    margin: 0 px;
+    padding: 0px;
+    font-size: 14px;
+    line-height: 17px;
+    font-family: 'Karla', sans-serif;
+    color: #656565;
+    background-color: #f0f0f0;
+}
+.wrapper {
+    margin: 0 auto;
+}
+.container {
+    width: 980px;
+    margin: 0 auto;
+    /*centers our container on the page */
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+/*-----------------------------------------------------------------------------
+=02 Header
+-----------------------------------------------------------------------------*/
+
+.mainheader, footer {
+    background-color: #273b47;
+}
+.logo {
+    display: inline-block;
+    margin-left: 5px;
+    line-height: 1.5;
+}
+.mainnav {
+    display: inline-block;
+}
+.mainnav ul li {
+    display: inline-block;
+}
+.mainnav a {
+    color: #aaa;
+    text-decoration: none;
+    margin-left: 35px;
+    font-size: 20px;
+}
+.mainnav a:hover, .mainnav a:active {
+    color: #e65380;
+}
+
+/*-----------------------------------------------------------------------------
+=03 Content home
+-----------------------------------------------------------------------------*/
+
+.banner img {
+    display: block;
+}
+.slogan {
+    background-color: #273b47;
+}
+.slogan h2 {
+    font-size: 20px;
+    text-align: center;
+    line-height: 3.3;
+    margin: 0;
+}
+.about {
+    margin-top: 20px;
+}
+.aboutme {
+    text-align: justify;
+    margin-top: 20px;
+    line-height: 1.5;
+    width: 49%;
+    display: inline-block;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+.aboutme p {
+    margin: 0;
+}
+.aboutimg {
+    width: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+/*-----------------------------------------------------------------------------
+=03 Content about
+-----------------------------------------------------------------------------*/
+
+.blockquote {
+    line-height: 2;
+    font-size: 18px;
+    text-align: center;
+}
+
+/*-----------------------------------------------------------------------------
+=03 Content contact me
+-----------------------------------------------------------------------------*/
+
+ul {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+    color: #e65380;
+    font-size: 15px;
+    line-height: 2;
+}
+a:hover {
+    color: #273b47;
+}
+
+/*-----------------------------------------------------------------------------
+=03 footer
+-----------------------------------------------------------------------------*/
+
+footer p {
+    margin: 0;
+    line-height: 2;
+}
